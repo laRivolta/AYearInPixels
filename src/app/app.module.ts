@@ -7,7 +7,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-import { AboutPage } from '../pages/about/about';
+import { YearViewPage } from '../pages/yearView/yearView';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
@@ -22,7 +22,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 @NgModule({
   declarations: [
     AYIP,
-    AboutPage,
+    YearViewPage,
     ContactPage,
     HomePage,
     TabsPage
@@ -42,7 +42,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
   bootstrap: [IonicApp],
   entryComponents: [
     AYIP,
-    AboutPage,
+    YearViewPage,
     ContactPage,
     HomePage,
     TabsPage
