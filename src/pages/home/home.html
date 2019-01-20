@@ -1,56 +1,56 @@
 <ion-header>
   <ion-navbar color="light">
-    <ion-title>Día a día</ion-title>
+    <ion-title>{{ 'tab.home.title' | translate }}</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding >
-  <h1>¿Cómo te has sentido hoy?</h1>
+  <h1>{{ 'tab.home.h1' | translate }}</h1>
   <ion-grid>
     <ion-row>
       <ion-col>
-        <button ion-button color="color1" round block>Entusiasmado</button>
+        <button ion-button color="color1" round block>{{ 'button.mood.excited' | translate }}</button>
       </ion-col>
       <ion-col>
-        <button ion-button color="color6" round block>Estresado</button>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <button ion-button color="color2" round block>Genial</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="color7" round block>Enfadado</button>
+        <button ion-button color="color6" round block>{{ 'button.mood.stressed' | translate }}</button>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <button ion-button color="color3" round block>Bien</button>
+        <button ion-button color="color2" round block>{{ 'button.mood.awesome' | translate }}</button>
       </ion-col>
       <ion-col>
-        <button ion-button color="color9" round block>Triste</button>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <button ion-button color="color4" round block>Normal</button>
-      </ion-col>
-      <ion-col>
-          <button ion-button color="color10" round block>Cansado</button>
+        <button ion-button color="color7" round block>{{ 'button.mood.angry' | translate }}</button>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <button ion-button color="color5" round block>Atareado</button>
+        <button ion-button color="color3" round block>{{ 'button.mood.fine' | translate }}</button>
       </ion-col>
       <ion-col>
-          <button ion-button color="color8" round block>Enfermo</button>
+        <button ion-button color="color9" round block>{{ 'button.mood.sad' | translate }}</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="color4" round block>{{ 'button.mood.normal' | translate }}</button>
+      </ion-col>
+      <ion-col>
+          <button ion-button color="color10" round block>{{ 'button.mood.tired' | translate }}</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="color5" round block>{{ 'button.mood.busy' | translate }}</button>
+      </ion-col>
+      <ion-col>
+          <button ion-button color="color8" round block>{{ 'button.mood.sick' | translate }}</button>
       </ion-col>
     </ion-row>
   </ion-grid>
   <ion-row>
       <ion-col>
-        <p>El estado de ánimo seleccionado es: </p>
+        <p>{{ 'p.selected.mood' | translate }}</p>
       </ion-col>
   </ion-row>
 </ion-content>

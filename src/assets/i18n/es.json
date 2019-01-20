@@ -1,0 +1,23 @@
+{
+    "tab": {
+        "home": {
+            "title": "Día a día",
+            "h1": "¿Cómo te has sentido hoy?"
+        }
+    },
+
+    "button": {
+        "mood.excited": "Entusiasmado",
+        "mood.stressed": "Estresado",
+        "mood.awesome": "Genial",
+        "mood.angry": "Enfadado",
+        "mood.fine": "Bien",
+        "mood.sad": "Triste",
+        "mood.normal": "Normal",
+        "mood.tired": "Cansado",
+        "mood.busy": "Atareado",
+        "mood.sick": "Enfermo"
+    },
+
+    "p.selected.mood": "El estado de ánimo seleccionado es: "
+}
